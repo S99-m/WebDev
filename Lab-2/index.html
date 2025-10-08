@@ -1,0 +1,121 @@
+<!-- Satyarata Behera: 2501730361, B.Tech Cse AiMl Section: F, Lab 2, Personal Portfolio with CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio With CSS- Lab 2</title>
+</head>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" id="skip">Skip to main content</a>
+
+    <header>
+        <h1>Satyarata Behera</h1>
+        <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section>
+            <h2>Welcome to my personal portfolio website</h2>
+            <p>Hello! I am a Computer Science Engineering Student with interest in python and AI/ML.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile picture of Satyarata" height="150" width="150">
+            <p>I am currently pursuing my B.Tech in Computer Science and Engineering. I enjoy learning PC component optimization, gaming and exploring new hobbies and prespectives.</p>
+        </section>
+
+        <!-- Project Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <article>
+                        <h3>Practicle File Record Management</h3>
+                        <p>A practicle file managing system using DAT files with menu for desired action to perform</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Portfolio Website</h3>
+                        <p>A one-page portfolio built with semantic HTML to showcase my work.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Python</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright 2025 Satyarata Behera. All rights reserved.</p>
+        <a href="#skip" id="Top">Back To Top</a>
+    </footer>
+
+</body>
+</html>
